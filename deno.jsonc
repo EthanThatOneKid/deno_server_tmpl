@@ -1,0 +1,8 @@
+{
+  "tasks": {
+    "dev": "deno run -A --watch server/main.ts",
+    "fmt": "deno fmt",
+    "lint": "deno lint",
+    "udd": "deno run -A https://deno.land/x/udd/main.ts server/deps.ts"
+  }
+}
